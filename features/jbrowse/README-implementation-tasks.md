@@ -11,7 +11,7 @@ These tasks begin after solution approval. This file is a planning checklist; it
 | --- | --- | --- |
 | 1 | Identify reference files for S3 hosting | Inspect study-file headers, identify assemblies and custom additions, and inventory authoritative reference files and matching indexes. |
 | 2 | Prepare S3 reference storage | Upload approved reference files and indexes, verify consistency, and configure browser byte-range access. |
-| 3 | Create the reference catalog | Map assembly IDs to sequence dictionaries, asset URLs, and JBrowse configuration. |
+| 3 | Configure environment variables | Set the S3 base path used to construct reference sequence file URLs at runtime. |
 | 4 | Confirm loader integration | Define resolver execution, file/index inputs, result storage, and publication ownership. |
 | 5 | Review dependencies and security | Check versions and advisories; establish patching, permissions, resource limits, and credential protection. |
 | 6 | Implement header collection | Extract reference metadata from remote BAM/VCF headers using bounded reads. |
